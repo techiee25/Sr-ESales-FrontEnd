@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  background-color: #e8eaed !important;
+}
+.css-n70jm4-MuiInputBase-root-MuiInput-root-MuiSelect-root::before{
+  border-bottom: none !important;
+}
+.css-n70jm4-MuiInputBase-root-MuiInput-root-MuiSelect-root::after{
+  border-bottom: none !important;
+}
+.css-1869usk-MuiFormControl-root{
+  background-color: white !important;
+  padding: 16px !important;
+  border-radius: 25px;
+  box-shadow: 3px 3px lightgrey;
+}
+label+.css-n70jm4-MuiInputBase-root-MuiInput-root-MuiSelect-root{
+  margin-top: unset !important;
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root{
+  margin-left: 16px;
+}
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root{
+  margin-left: 16px;
+}
