@@ -5,7 +5,7 @@ import Cards from "../Cards/Cards";
 export default function Dashboard() {
   return (
     <div className="dashboardcontainer">
-      <Cards />
+      {/* <Cards /> */}
       <Mobileplan />
       <Internetplan />
     </div>

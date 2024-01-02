@@ -9,6 +9,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import PollIcon from "@mui/icons-material/Poll";
 import { IconButton } from "@mui/material";
+import "./Cards.css";
 
 const bull = (
   <Box
@@ -21,7 +22,7 @@ const bull = (
 
 export default function BasicCard() {
   return (
-    <div>
+    <div className="cardscontainer">
       <Grid container spacing={3}>
         <Grid item xs={12} md={6} lg={3}>
           <Card sx={{ width: "90%" }}>

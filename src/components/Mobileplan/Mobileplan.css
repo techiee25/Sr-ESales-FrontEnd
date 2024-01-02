@@ -9,3 +9,11 @@
     background-color: white;
     box-shadow: 3px 3px lightgray;
 }
+@media only screen and (max-width: 768px) {
+    .mbbplan{
+      margin: 16px 16px 0 16px !important;
+    }
+    .mbplancontainer{
+        margin: unset !important;
+    }
+  }

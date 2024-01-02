@@ -1,8 +1,7 @@
 .dashboardcontainer{
     padding: 20px;
-    background-color: #e8eaed;
+    background-color: whitesmoke;
     text-align: left;
-    padding-left: 10% !important;
 }
 .dashboardtext{
     color: #da291c !important;
