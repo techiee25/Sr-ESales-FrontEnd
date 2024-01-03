@@ -6,7 +6,8 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import "./Mobileplan.css";
 import Cards from "../Cards/Cards";
-
+import { PieChart } from '@mui/x-charts/PieChart';
+import Table from "../Table/Tables";
 
 const MobileA = [83, 322, 945, 110, 68, 298];
 const MobileB = [277, 540, 44, 801, 45, 555];
@@ -22,11 +23,17 @@ const x1Labels = ["Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const x2Labels = ["Jan", "Feb", "Mar"];
 
+const data = [
+  { id: 0, value: 17, label: 'Year 2021' },
+  { id: 1, value: 11, label: 'Year 2022' },
+  { id: 2, value: 9, label: 'Year 2023' },
+];
+
+
 export default function Mobileplan() {
   return (
     <div className="mobileplanparent">
-      <Cards/>
-      {" "}
+      <Cards />{" "}
       <div className="mbbplan">
         <Grid container spacing={2}>
           <Grid item xs={12} md={7} sm={7}>
@@ -110,70 +117,44 @@ export default function Mobileplan() {
         <Grid container spacing={2}>
           <Grid item xs={12} md={7} sm={7}>
             <div className="mbplancontainer">
-              <BarChart
-                xAxis={[
-                  { scaleType: "band", data: ["Mobile A", "Mobile B"] },
-                ]}
-                series={[{ data: [110, 68] }, { data: [62, 98] }]}
-                height={300}
-                margin={{
-                  left: 40,
-                  right: 90,
-                  top: 40,
-                  bottom: 30,
-                }}
-                slotProps={{
-                  legend: {
-                    direction: "column",
-                    position: {
-                      vertical: "top",
-                      horizontal: "right",
-                    },
-                    itemMarkWidth: 10,
-                    itemMarkHeight: 10,
-                    markGap: 5,
-                    itemGap: 10,
-                    labelStyle: {
-                      fontSize: 13,
-                      // fill: 'blue',
-                    },
-                  },
-                }}
-              />
+              <Table />
             </div>
           </Grid>
           <Grid item xs={12} md={5} sm={5}>
             <div className="mbplancontainer">
-              <BarChart
-                xAxis={[
-                  { scaleType: "band", data: ["Mobile C", "Mobile D"] },
-                ]}
-                series={[{ data: [77, 154] }, { data: [123, 104] }]}
-                height={300}
-                margin={{
-                  left: 40,
-                  right: 90,
-                  top: 40,
-                  bottom: 30,
-                }}
-                slotProps={{
-                  legend: {
-                    direction: "column",
-                    position: {
-                      vertical: "top",
-                      horizontal: "right",
-                    },
-                    itemMarkWidth: 10,
-                    itemMarkHeight: 10,
-                    markGap: 5,
-                    itemGap: 10,
-                    labelStyle: {
-                      fontSize: 13,
-                      // fill: 'blue',
-                    },
+              <PieChart
+              slotProps={{
+                legend: {
+                  direction: "column",
+                  position: {
+                    vertical: "top",
+                    horizontal: "right",
                   },
-                }}
+                  itemMarkWidth: 10,
+                  itemMarkHeight: 10,
+                  markGap: 5,
+                  itemGap: 10,
+                  labelStyle: {
+                    fontSize: 13,
+                    // fill: 'blue',
+                  },
+                },
+              }}
+                series={[
+                  {
+                    data,
+                    highlightScope: { faded: "global", highlighted: "item" },
+                    faded: {
+                      innerRadius: 7,
+                      additionalRadius: -7,
+                      color: "gray",
+                    },
+                    
+                  },
+                ]}
+                height={200}
               />
+              <h5>Yearly Sales Differentiate</h5>
             </div>
           </Grid>
         </Grid>
