@@ -8,6 +8,7 @@ import "./Mobileplan.css";
 import Cards from "../Cards/Cards";
 import { PieChart } from '@mui/x-charts/PieChart';
 import Table from "../Table/Tables";
+// import jsondata from "../data.json"
 
 const MobileA = [83, 322, 945, 110, 68, 298];
 const MobileB = [277, 540, 44, 801, 45, 555];
@@ -31,6 +32,22 @@ const data = [
 
 
 export default function Mobileplan() {
+  // const [planData, setPlanData] = React.useState([]);
+
+  // React.useEffect(() => {
+
+  //   // Grouping Plans_Sold values by Plan_Type
+  //   const groupedData = jsondata.reduce((acc, item) => {
+  //     if (!acc[item.Plan_Type]) {
+  //       acc[item.Plan_Type] = [];
+  //     }
+  //     acc[item.Plan_Type].push(Number(item.Plans_Sold));
+  //     return acc;
+  //   }, {});
+
+  //   setPlanData(groupedData);
+  // }, []);
+
   return (
     <div className="mobileplanparent">
       <Cards />{" "}
