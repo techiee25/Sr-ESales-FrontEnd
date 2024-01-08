@@ -1,289 +1,289 @@
 [
     {
         "Id": "1",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Jan",
         "Plans_Sold": "300"
     },
     {
         "Id": "2",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Feb",
         "Plans_Sold": "280"
     },
     {
         "Id": "3",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Mar",
         "Plans_Sold": "320"
     },
     {
         "Id": "4",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Apr",
         "Plans_Sold": "270"
     },
     {
         "Id": "5",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "May",
         "Plans_Sold": "310"
     },
     {
         "Id": "6",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Jun",
         "Plans_Sold": "290"
     },
     {
         "Id": "7",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Jul",
         "Plans_Sold": "305"
     },
     {
         "Id": "8",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Aug",
         "Plans_Sold": "295"
     },
     {
         "Id": "9",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Sep",
         "Plans_Sold": "285"
     },
     {
         "Id": "10",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Oct",
         "Plans_Sold": "300"
     },
     {
         "Id": "11",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Nov",
         "Plans_Sold": "295"
     },
     {
         "Id": "12",
-        "Plan_Type": "Mobile_A",
+        "Plan_Type": "MobileA",
         "Month": "Dec",
         "Plans_Sold": "310"
     },
     {
         "Id": "13",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Jan",
         "Plans_Sold": "225"
     },
     {
         "Id": "14",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Feb",
         "Plans_Sold": "198"
     },
     {
         "Id": "15",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Mar",
         "Plans_Sold": "210"
     },
     {
         "Id": "16",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Apr",
         "Plans_Sold": "187"
     },
     {
         "Id": "17",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "May",
         "Plans_Sold": "205"
     },
     {
         "Id": "18",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Jun",
         "Plans_Sold": "240"
     },
     {
         "Id": "19",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Jul",
         "Plans_Sold": "215"
     },
     {
         "Id": "20",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Aug",
         "Plans_Sold": "230"
     },
     {
         "Id": "21",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Sep",
         "Plans_Sold": "190"
     },
     {
         "Id": "22",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Oct",
         "Plans_Sold": "205"
     },
     {
         "Id": "23",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Nov",
         "Plans_Sold": "195"
     },
     {
         "Id": "24",
-        "Plan_Type": "Mobile_B",
+        "Plan_Type": "MobileB",
         "Month": "Dec",
         "Plans_Sold": "220"
     },
     {
         "Id": "25",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Jan",
         "Plans_Sold": "184"
     },
     {
         "Id": "26",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Feb",
         "Plans_Sold": "210"
     },
     {
         "Id": "27",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Mar",
         "Plans_Sold": "175"
     },
     {
         "Id": "28",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Apr",
         "Plans_Sold": "198"
     },
     {
         "Id": "29",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "May",
         "Plans_Sold": "225"
     },
     {
         "Id": "30",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Jun",
         "Plans_Sold": "190"
     },
     {
         "Id": "31",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Jul",
         "Plans_Sold": "205"
     },
     {
         "Id": "32",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Aug",
         "Plans_Sold": "180"
     },
     {
         "Id": "33",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Sep",
         "Plans_Sold": "195"
     },
     {
         "Id": "34",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Oct",
         "Plans_Sold": "220"
     },
     {
         "Id": "35",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Nov",
         "Plans_Sold": "240"
     },
     {
         "Id": "36",
-        "Plan_Type": "Mobile_C",
+        "Plan_Type": "MobileC",
         "Month": "Dec",
         "Plans_Sold": "230"
     },
     {
         "Id": "37",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Jan",
         "Plans_Sold": "321"
     },
     {
         "Id": "38",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Feb",
         "Plans_Sold": "275"
     },
     {
         "Id": "39",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Mar",
         "Plans_Sold": "310"
     },
     {
         "Id": "40",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Apr",
         "Plans_Sold": "290"
     },
     {
         "Id": "41",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "May",
         "Plans_Sold": "340"
     },
     {
         "Id": "42",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Jun",
         "Plans_Sold": "285"
     },
     {
         "Id": "43",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Jul",
         "Plans_Sold": "300"
     },
     {
         "Id": "44",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Aug",
         "Plans_Sold": "330"
     },
     {
         "Id": "45",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Sep",
         "Plans_Sold": "295"
     },
     {
         "Id": "46",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Oct",
         "Plans_Sold": "325"
     },
     {
         "Id": "47",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Nov",
         "Plans_Sold": "305"
     },
     {
         "Id": "48",
-        "Plan_Type": "Mobile_D",
+        "Plan_Type": "MobileD",
         "Month": "Dec",
         "Plans_Sold": "315"
     }

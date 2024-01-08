@@ -1,0 +1,290 @@
+[
+    {
+        "Id": "1",
+        "Plan_Type": "InternetA",
+        "Month": "Jan",
+        "Plans_Sold": "329"
+    },
+    {
+        "Id": "2",
+        "Plan_Type": "InternetA",
+        "Month": "Feb",
+        "Plans_Sold": "271"
+    },
+    {
+        "Id": "3",
+        "Plan_Type": "InternetA",
+        "Month": "Mar",
+        "Plans_Sold": "303"
+    },
+    {
+        "Id": "4",
+        "Plan_Type": "InternetA",
+        "Month": "Apr",
+        "Plans_Sold": "248"
+    },
+    {
+        "Id": "5",
+        "Plan_Type": "InternetA",
+        "Month": "May",
+        "Plans_Sold": "312"
+    },
+    {
+        "Id": "6",
+        "Plan_Type": "InternetA",
+        "Month": "Jun",
+        "Plans_Sold": "287"
+    },
+    {
+        "Id": "7",
+        "Plan_Type": "InternetA",
+        "Month": "Jul",
+        "Plans_Sold": "296"
+    },
+    {
+        "Id": "8",
+        "Plan_Type": "InternetA",
+        "Month": "Aug",
+        "Plans_Sold": "299"
+    },
+    {
+        "Id": "9",
+        "Plan_Type": "InternetA",
+        "Month": "Sep",
+        "Plans_Sold": "281"
+    },
+    {
+        "Id": "10",
+        "Plan_Type": "InternetA",
+        "Month": "Oct",
+        "Plans_Sold": "308"
+    },
+    {
+        "Id": "11",
+        "Plan_Type": "InternetA",
+        "Month": "Nov",
+        "Plans_Sold": "293"
+    },
+    {
+        "Id": "12",
+        "Plan_Type": "InternetA",
+        "Month": "Dec",
+        "Plans_Sold": "314"
+    },
+    {
+        "Id": "13",
+        "Plan_Type": "InternetB",
+        "Month": "Jan",
+        "Plans_Sold": "213"
+    },
+    {
+        "Id": "14",
+        "Plan_Type": "InternetB",
+        "Month": "Feb",
+        "Plans_Sold": "229"
+    },
+    {
+        "Id": "15",
+        "Plan_Type": "InternetB",
+        "Month": "Mar",
+        "Plans_Sold": "191"
+    },
+    {
+        "Id": "16",
+        "Plan_Type": "InternetB",
+        "Month": "Apr",
+        "Plans_Sold": "184"
+    },
+    {
+        "Id": "17",
+        "Plan_Type": "InternetB",
+        "Month": "May",
+        "Plans_Sold": "205"
+    },
+    {
+        "Id": "18",
+        "Plan_Type": "InternetB",
+        "Month": "Jun",
+        "Plans_Sold": "242"
+    },
+    {
+        "Id": "19",
+        "Plan_Type": "InternetB",
+        "Month": "Jul",
+        "Plans_Sold": "220"
+    },
+    {
+        "Id": "20",
+        "Plan_Type": "InternetB",
+        "Month": "Aug",
+        "Plans_Sold": "228"
+    },
+    {
+        "Id": "21",
+        "Plan_Type": "InternetB",
+        "Month": "Sep",
+        "Plans_Sold": "192"
+    },
+    {
+        "Id": "22",
+        "Plan_Type": "InternetB",
+        "Month": "Oct",
+        "Plans_Sold": "206"
+    },
+    {
+        "Id": "23",
+        "Plan_Type": "InternetB",
+        "Month": "Nov",
+        "Plans_Sold": "211"
+    },
+    {
+        "Id": "24",
+        "Plan_Type": "InternetB",
+        "Month": "Dec",
+        "Plans_Sold": "227"
+    },
+    {
+        "Id": "25",
+        "Plan_Type": "InternetC",
+        "Month": "Jan",
+        "Plans_Sold": "177"
+    },
+    {
+        "Id": "26",
+        "Plan_Type": "InternetC",
+        "Month": "Feb",
+        "Plans_Sold": "205"
+    },
+    {
+        "Id": "27",
+        "Plan_Type": "InternetC",
+        "Month": "Mar",
+        "Plans_Sold": "168"
+    },
+    {
+        "Id": "28",
+        "Plan_Type": "InternetC",
+        "Month": "Apr",
+        "Plans_Sold": "189"
+    },
+    {
+        "Id": "29",
+        "Plan_Type": "InternetC",
+        "Month": "May",
+        "Plans_Sold": "231"
+    },
+    {
+        "Id": "30",
+        "Plan_Type": "InternetC",
+        "Month": "Jun",
+        "Plans_Sold": "188"
+    },
+    {
+        "Id": "31",
+        "Plan_Type": "InternetC",
+        "Month": "Jul",
+        "Plans_Sold": "216"
+    },
+    {
+        "Id": "32",
+        "Plan_Type": "InternetC",
+        "Month": "Aug",
+        "Plans_Sold": "175"
+    },
+    {
+        "Id": "33",
+        "Plan_Type": "InternetC",
+        "Month": "Sep",
+        "Plans_Sold": "195"
+    },
+    {
+        "Id": "34",
+        "Plan_Type": "InternetC",
+        "Month": "Oct",
+        "Plans_Sold": "221"
+    },
+    {
+        "Id": "35",
+        "Plan_Type": "InternetC",
+        "Month": "Nov",
+        "Plans_Sold": "247"
+    },
+    {
+        "Id": "36",
+        "Plan_Type": "InternetC",
+        "Month": "Dec",
+        "Plans_Sold": "233"
+    },
+    {
+        "Id": "37",
+        "Plan_Type": "InternetD",
+        "Month": "Jan",
+        "Plans_Sold": "326"
+    },
+    {
+        "Id": "38",
+        "Plan_Type": "InternetD",
+        "Month": "Feb",
+        "Plans_Sold": "275"
+    },
+    {
+        "Id": "39",
+        "Plan_Type": "InternetD",
+        "Month": "Mar",
+        "Plans_Sold": "300"
+    },
+    {
+        "Id": "40",
+        "Plan_Type": "InternetD",
+        "Month": "Apr",
+        "Plans_Sold": "298"
+    },
+    {
+        "Id": "41",
+        "Plan_Type": "InternetD",
+        "Month": "May",
+        "Plans_Sold": "344"
+    },
+    {
+        "Id": "42",
+        "Plan_Type": "InternetD",
+        "Month": "Jun",
+        "Plans_Sold": "288"
+    },
+    {
+        "Id": "43",
+        "Plan_Type": "InternetD",
+        "Month": "Jul",
+        "Plans_Sold": "302"
+    },
+    {
+        "Id": "44",
+        "Plan_Type": "InternetD",
+        "Month": "Aug",
+        "Plans_Sold": "338"
+    },
+    {
+        "Id": "45",
+        "Plan_Type": "InternetD",
+        "Month": "Sep",
+        "Plans_Sold": "290"
+    },
+    {
+        "Id": "46",
+        "Plan_Type": "InternetD",
+        "Month": "Oct",
+        "Plans_Sold": "327"
+    },
+    {
+        "Id": "47",
+        "Plan_Type": "InternetD",
+        "Month": "Nov",
+        "Plans_Sold": "300"
+    },
+    {
+        "Id": "48",
+        "Plan_Type": "InternetD",
+        "Month": "Dec",
+        "Plans_Sold": "319"
+    }
+]

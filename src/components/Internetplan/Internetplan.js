@@ -6,12 +6,13 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import "./Internetplan.css";
 import Cards from "../Cards/Cards";
+import internetdata from "../internet.json"
 
 
-const InternetA = [83, 322, 945, 110, 68, 298];
-const InternetB = [277, 540, 44, 801, 45, 555];
-const InternetC = [57, 891, 476, 66, 412, 247];
-const InternetD = [405, 564, 720, 155, 612, 490];
+// const InternetA = [83, 322, 945, 110, 68, 298];
+// const InternetB = [277, 540, 44, 801, 45, 555];
+// const InternetC = [57, 891, 476, 66, 412, 247];
+// const InternetD = [405, 564, 720, 155, 612, 490];
 
 const NewInternetA = [110, 68, 298];
 const NewInternetB = [801, 45, 555];
@@ -23,6 +24,46 @@ const x1Labels = ["Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const x2Labels = ["Jan", "Feb", "Mar"];
 
 export default function Internetplan() {
+
+  const [filteredData, setFilteredData] = React.useState({});
+
+  React.useEffect(() => {
+    // Function to filter data
+    const filterPlans = () => {
+      const filteredValues = {};
+
+      Array.isArray(internetdata) && internetdata.forEach(item => {
+        // Check if the "Month" is between "Jul" to "Dec"
+        if (
+          item?.Month === 'Jul' ||
+          item?.Month === 'Aug' ||
+          item?.Month === 'Sep' ||
+          item?.Month === 'Oct' ||
+          item?.Month === 'Nov' ||
+          item?.Month === 'Dec'
+        ) {
+          if (!filteredValues[item.Plan_Type]) {
+            // If "Plan_Type" doesn't exist in the filteredValues object, create an empty array
+            filteredValues[item.Plan_Type] = [];
+          }
+          // Push the "Plans_Sold" value for the specified months
+          filteredValues[item.Plan_Type].push(Number(item.Plans_Sold))
+        }
+      });
+
+      setFilteredData(filteredValues);
+    };
+
+    filterPlans();
+  }, [internetdata]);
+
+  console.log(filteredData?.InternetA,'data')
+
+  const InternetA = filteredData?.InternetA !== undefined && filteredData?.InternetA;
+  const InternetB = filteredData?.InternetB !== undefined && filteredData?.InternetB;
+  const InternetC = filteredData?.InternetC !== undefined && filteredData?.InternetC;
+  const InternetD = filteredData?.InternetD !== undefined && filteredData?.InternetD;
+
   return (
     <div className="mobileplanparent">
       <Cards/>
