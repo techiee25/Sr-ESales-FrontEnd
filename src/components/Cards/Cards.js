@@ -18,8 +18,6 @@ const cardsData = [
     Percentage: "80%",
     negative: false,
     lastmonth: "86%",
-    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    // image: "https://example.com/image1.jpg",
   },
   {
     id: 2,
@@ -67,7 +65,7 @@ export default function BasicCard() {
                   <Typography
                     variant="h5"
                     component="div"
-                    style={{ textAlign: "right" }}
+                    style={{ textAlign: "right",color: !item.negative ? "green" : "red", }}
                   >
                     {item.Percentage}
                   </Typography>

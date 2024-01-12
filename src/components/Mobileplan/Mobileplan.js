@@ -39,7 +39,7 @@ export default function Mobileplan() {
     const filterPlans = () => {
       const filteredValues = {};
 
-      Array.isArray(jsondata) && jsondata.forEach(item => {
+      Array.isArray(jsondata) && jsondata.map(item => {
         // Check if the "Month" is between "Jul" to "Dec"
         if (
           item.Month === 'Jul' ||

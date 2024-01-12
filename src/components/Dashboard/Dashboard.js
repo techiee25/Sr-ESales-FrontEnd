@@ -1,13 +1,25 @@
 import React from "react";
-import Mobileplan from "../Mobileplan/Mobileplan";
-import Internetplan from "../Internetplan/Internetplan";
-import Cards from "../Cards/Cards";
-export default function Dashboard() {
+import "../Dashboard/Styles/styles.css";
+
+import Navbar from "../Dashboard/components/Navbar";
+import HeroBanner from "../Dashboard/components/HeroBanner";
+import Features from "../Dashboard/components/Feature";
+import Services from "../Dashboard/components/Services";
+import Pricing from "../Dashboard/components/Price";
+import Download from "../Dashboard/components/Download";
+import Footer from "../Dashboard/components/Footer";
+
+export default function App() {
   return (
-    <div className="dashboardcontainer">
-      {/* <Cards /> */}
-      <Mobileplan />
-      <Internetplan />
-    </div>
+    <>
+      <main>
+        <HeroBanner />
+        <Features />
+        <Services />
+        <Pricing />
+        <Download />
+      </main>
+      <Footer />
+    </>
   );
 }

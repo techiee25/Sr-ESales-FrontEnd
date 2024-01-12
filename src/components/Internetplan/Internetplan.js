@@ -32,7 +32,7 @@ export default function Internetplan() {
     const filterPlans = () => {
       const filteredValues = {};
 
-      Array.isArray(internetdata) && internetdata.forEach(item => {
+      Array.isArray(internetdata) && internetdata.map(item => {
         // Check if the "Month" is between "Jul" to "Dec"
         if (
           item?.Month === 'Jul' ||
